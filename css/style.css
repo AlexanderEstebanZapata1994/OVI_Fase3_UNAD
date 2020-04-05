@@ -3,5 +3,8 @@ body{
     padding: 0; 
     margin: 5px; 
     color: Black; 
-    background-color: WhiteSmoke;
+}
+
+.main-container{
+    background: #f8f9fa;
 }
