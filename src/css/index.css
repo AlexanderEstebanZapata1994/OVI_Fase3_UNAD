@@ -1,0 +1,11 @@
+body{ 
+    font-family: 'Open Sans',sans-serif;
+    padding: 0; 
+    margin: 5px; 
+    color: #014D65 !important;
+}
+
+.content{
+    margin-top: 80px;
+    background: #f8f9fa;
+}
