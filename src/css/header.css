@@ -1,0 +1,45 @@
+.header .navbar{
+    background: linear-gradient(#007390,#004C64 );
+}
+
+.title{
+    color: white;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 0.8px #FE850C, 0px 0px 4px 0px #FE850C, 0px 1px 8px 0px #FE850C;
+}
+
+.footer{
+    margin-bottom: 75px;
+}
+.footer .navbar {
+    background: #333;
+}
+
+.non-ordened-list{
+    margin: 0 auto;
+}
+    .non-ordened-list li{
+        list-style: none;
+        display: inline;
+        margin-left: 5px;
+    }
+.non-ordened-list li a{
+    list-style: none;
+    color: ghostwhite;
+}
+
+.social-media-icon{
+    height: 25px; 
+    width: 25px; 
+    color: black;
+    background: white; 
+    border-radius: 50%; 
+    border: solid white;
+    cursor: pointer;
+}
