@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturas UNAD</title>
+
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/pushbar/pushbar.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container main-container">
+        <div class="header">
+            <nav class="navbar fixed-top navbar-light">
+                <p class="h3 title">Lecturas</p>
+                <img src="/src/img/img_avatar.png" alt="Avatar" class="avatar">
+            </nav>
+        </div>
+        
+        <div class="container-fluid content">
+            <section class="central">
+                <article>
+                    <h2>Teoria</h2>
+                </article>
+                <article>
+                    <h5>Guia para usar CSS3</h5>
+                    <p>
+                        Nos muestra lo necesario para aplicar las modificaciones necesarias a las paginas y acondicionarlas a lo que queremos presentar
+                    </p>
+                    <iframe src="../PDF/CursoCSS3.pdf" frameborder="0" width="100%" height="600px"></iframe>
+                </article>
+                <article>
+                    <h5>Guia para usar HTML</h5>
+                    <p>
+                        Para la codificacion es necesario el conocimiento basico en como utilizar HTML version 5 en el diseño de paginas, por lo tanto en esta lectura se pueden conocer las nociones basicas
+                    </p>
+                        <iframe src="../PDF/Curso_HTML5_v1.pdf" frameborder="0" width="100%" height="600px"></iframe>
+                </article>
+                <article>
+                    <h5>Sintaxis y estructura</h5>
+                    <p>
+                        Como se dividen las partes de la pagina mediante semantica gracias al HTML5
+                    </p>
+                        <iframe src="../PDF/guia2.pdf" frameborder="0" width="100%" height="600px"></iframe>
+                </article>
+                <article>
+                    <h5>Composicion de una pagina web</h5>
+                    <p>
+                        Nos muestra las partes que son importante a la hora del diseño de una pagina web
+                    </p>
+                        <iframe src="../PDF/composicion-de-una-pagina-web.pdf" frameborder="0" width="100%" height="600px"></iframe>
+                </article>
+                <article>
+                    <h5>Mejores editores</h5>
+                    <p>
+                        Podemos observar hasta el momento cuales son los mejores editores para codificar paginas web
+                    </p>
+                        <iframe src="../PDF/Mejoreseditores.pdf" frameborder="0" width="100%" height="600px"></iframe>
+                </article>
+            </section>
+        </div>       
+
+        <div class="footer">
+            <nav class="navbar fixed-bottom navbar-light">
+                <ul class="non-ordened-list" style="color: white;">
+                    <li><a href="../../index.html">Inicio</a></li>
+                    <li>|</li>
+                    <li><a>Lecturas</a></li>
+                    <li>|</li>
+                    <li><a href="../../src/pages/Multimedia.html">Multimedia</a></li>
+                    <li>|</li>
+                    <li><a href="../../src/pages/Actividades.html">Actividades</a></li>
+                    <li>|</li>
+                    <li><a href="../../src/pages/Autores.html">Autores</a></li>
+                    <li>|</li>
+                    <li><a  data-pushbar-target="mypushbar1" class="fab fa-twitter-square"></a></li>
+                    <li><a href="https://www.facebook.com/UniversidadUNAD" target="_blank" class="fab fa-facebook-square"></a></li>
+                    <li><a href="https://www.instagram.com/universidadunad" target="_blank" class="fab fa-instagram"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="pushbar-container" data-pushbar-id="mypushbar1" data-pushbar-direction="right">
+        <button class="btn btn-sm btn-danger" data-pushbar-close style="float: left; margin: 5px;">Cerrar linea tiempo UNAD</button>
+        <div class="twitter-container">
+            <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> 
+        </div>
+    </div>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+    <script src="../js/pushbar.js"></script>
+    <script type="text/javascript" >
+        const pushbar = new Pushbar({
+        blur:false,
+        overlay:false,
+        });
+    </script>
+</body>
+</html>
