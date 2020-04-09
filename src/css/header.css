@@ -41,4 +41,5 @@
     background: white; 
     border-radius: 50%; 
     border: solid white;
+    cursor: pointer;
 }
